@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ghtk-permissions</string>
+    <string name="location_permission_available">Quyen vi tri da san sang su dung</string>
+    <string name="location_access_required">Quyen vi tri duoc yeu cau de hien thi vi tri hien tai</string>
+    <string name="ok">OK</string>
+    <string name="location_unavailable">Chua the lay duoc vi tri hien tai</string>
+    <string name="location_permission_granted">Quyen vi tri da duoc cap</string>
+    <string name="location_permission_denied">Quyen vi tri bi tu choi</string>
 </resources>

@@ -42,6 +42,5 @@
         android:text="Lấy vị trí hiện tại"
         android:layout_below="@id/tvLongitude"
         android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true"
-        android:enabled="false"/>
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
