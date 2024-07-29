@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvPermissionStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trạng thái cấp quyền: Chưa được cấp"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vĩ độ: "
+        android:textSize="18sp"
+        android:layout_below="@id/tvPermissionStatus"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kinh độ: "
+        android:textSize="18sp"
+        android:layout_below="@id/tvLatitude"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnGetLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lấy vị trí hiện tại"
+        android:layout_below="@id/tvLongitude"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:enabled="false"/>
+</RelativeLayout>
